@@ -4,20 +4,20 @@ meta =
     -- ID of your mod; Make sure this is unique!
     -- Will be used for identifying the mod in dependency lists
     -- Will be changed to workshop ID (ensuring uniqueness) when you upload the mod to the workshop
-    id = "FreakyGalaxy",
+    id = "2192067580",
 
     -- Name of your mod; You may want this to be unique, but it's not absolutely necessary.
     -- This is an additional helper attribute for you to easily identify your mod in the Mods() list
-    name = "Freaky's Galaxy",
+    name = "ReCreating The Galaxy",
 
     -- Title of your mod that will be displayed to players
-    title = "Freaky's Galaxy (WIP)",
+    title = "ReCreating The Galaxy (WIP)",
 
     -- Type of your mod, either "mod" or "factionpack"
     type = "mod",
 
     -- Description of your mod that will be displayed to players
-    description = "Modding my own Galaxy",
+    description = "My atempt to recreate the galaxy, i wil start by changing the texture and adding new things as i learn more, This wil be a long project as i am stil new to Lua",
 
     -- Insert all authors into this list
     authors = {"FreakyHydra"},
@@ -44,7 +44,7 @@ meta =
     --      {id = "OptionalMod", min = "0.2", optional = true}, -- we support OptionalMod optionally, starting at version 0.2
     -- },
     dependencies = {
-
+        {id = "Avorion", max = "1.1.2"}
     },
 
     -- Set to true if the mod only has to run on the server. Clients will get notified that the mod is running on the server, but they won't download it to themselves
